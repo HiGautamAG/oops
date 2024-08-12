@@ -72,4 +72,18 @@ print(s2.name, s2.marks)
 
 # attributes are variables of a class,
 # methods are functions of a class
+
+class car:
+    
+    country = "Germany"
+    name = "BMW" #class attribute
+    
+    def __init__(self, color, brand):
+        self.color = color #instance attribute
+        self.brand = brand
+        print("Adding new car in database")
+        
+        
+s1 = car("audii", "black")
+print(s1.color, s1.brand)
        
