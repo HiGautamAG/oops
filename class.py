@@ -33,3 +33,43 @@ class Student:
         
 s1 = Student("Gautam")
 print(s1.name)
+
+
+class Student:
+    
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+        print("Adding new student in database")
+        
+s1 = Student("Ansh", 90)
+print(s1.name, s1.marks)
+
+s2 = Student("aish", 80)    
+print(s2.name, s2.marks)
+
+
+
+
+
+class Student:
+    #defalt constructor 
+    
+    # def __init__(self):
+    #  pass
+    
+    #parameterized constructor
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+        print("Adding new student in database")
+        
+s1 = Student("Ansh", 90)
+print(s1.name, s1.marks)
+
+s2 = Student("Aisha", 80)    
+print(s2.name, s2.marks)
+
+# attributes are variables of a class,
+# methods are functions of a class
+       
