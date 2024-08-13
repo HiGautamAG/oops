@@ -35,6 +35,8 @@ s1 = Student("Gautam")
 print(s1.name)
 
 
+
+
 class Student:
     
     def __init__(self, name, marks):
@@ -72,6 +74,9 @@ print(s2.name, s2.marks)
 
 # attributes are variables of a class,
 # methods are functions of a class
+       
+
+
 
 class car:
     
@@ -86,4 +91,4 @@ class car:
         
 s1 = car("audii", "black")
 print(s1.color, s1.brand)
-       
+
