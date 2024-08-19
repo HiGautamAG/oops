@@ -67,3 +67,27 @@ class Circle:
 c1 = Circle(5)
 print("Area of Circle: ", c1.area())
 print("Perimeter of Circle: ", c1.perimeter())
+
+# Define a class called Car with the following attributes: make, model, year, odometer_reading, fuel_reading.
+
+# Define a method called get_descriptive_name() that prints a description of the car.
+
+
+class Car:
+    def __init__(self, make, model, year, odometer_reading, fuel_reading):
+        self.make = make
+        self.model = model
+        self.year = year
+        self.odometer_reading = odometer_reading
+        self.fuel_reading = fuel_reading
+        
+    def get_descriptive_name(self):
+        print("Car Make: ", self.make)
+        print("Car Model: ", self.model)
+        print("Car Year: ", self.year)
+        print("Odometer Reading: ", self.odometer_reading)
+        print("Fuel Reading: ", self.fuel_reading)
+        
+c1 = Car("Toyota", "Corolla", 2019, 1000, 50)
+c1.get_descriptive_name()
+
