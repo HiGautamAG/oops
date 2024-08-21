@@ -51,7 +51,7 @@ acc1.credit(1000)
 
 #define a circle class to create a circle with radius r using the constructor.
 # DEFINE an area method to calculate the area of the circle. # formula: 3.14 * r * r
-# DEFINE a perimeter method to calculate the perimeter of the circle.
+## DEFINE a perimeter method to calculate the perimeter of the circle.
 
 
 class Circle:
